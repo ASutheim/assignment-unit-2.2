@@ -26,10 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called 'name' and set it to equal 'Dane.' 
+// We then create a conditional statement which checks the value of 'name'. If 'name' were 'Mary',
+//it would personally greet Mary. Otherwise (and in this case, where 'name' is 'Dane') it will console log 'How do you do?' 
 
 //CODE
 /*
@@ -45,9 +44,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We've declared two variables, one called 'secret' and another called 'code'. Code has been set to equal 123.
+// We then have two conditional statements which check the value of 'code'. 
+// If the value of 'code' is '123', it will console log 'super', and multiply the value of 'code' by two.
+// If the value of 'code' is greater than 250, it will console log 'duper'. 
 //
 
 //CODE
@@ -70,10 +70,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We've created three variables, a Boolean called 'isStudent' and two with numerical values, 'age' and 'zip'. 
+// We then have a series of if/else statements based on these variables.  
+//If ifStudent is true and the value of zip is greater than 8000, 'You're a student on the West Cost!' will be logged. 
+//If ifStudent is false, or if age is less than 30, 'What are your hobbies?' will be logged.
+//If ifStudent is true, 'Welcome to Prime' will be logged.
+//In all other cases, 'How about the weather?' will be logged. 
 
 //CODE
 /*
@@ -137,6 +139,13 @@ let mix = true;
 if (mix === true) {
   colorOne = 'purple';
 }
+
+//FIX: the values of colorOne and colorTwo have been swapped from the instructions. 
+It should read
+
+let colorOne= 'blue';
+let colorTwo = 'red';
+
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
@@ -150,6 +159,15 @@ const time = 4;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
+
+FIX: '||' will check for either condition to be true, not both -- in this case, we need &&. 
+
+Should read 
+if (temp > 39 && time >= 4) {
+  console.log('throw away the food!');
+} 
+
+(I'm also not sure time should be declared as a const in this case, since it might need to vary.)
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
@@ -165,5 +183,11 @@ if(minAge <= age) {
 } else {
   console.log('enter');
 }
+
+FIX: The 'if' condition is swapped, and as written will turn this into a '21 and under only' club. 
+The correct 'if' condition would be:
+
+if(age >= minAge) 
+
 */
 
