@@ -49,6 +49,7 @@ if (name === 'Mary') {
 // If the value of 'code' is '123', it will console log 'super', and multiply the value of 'code' by two.
 // If the value of 'code' is greater than 250, it will console log 'duper'. 
 //
+// UPDATE FOR RESUBMISSION: It will console log "super".
 
 //CODE
 /*
@@ -76,6 +77,8 @@ console.log(secret)
 //If ifStudent is false, or if age is less than 30, 'What are your hobbies?' will be logged.
 //If ifStudent is true, 'Welcome to Prime' will be logged.
 //In all other cases, 'How about the weather?' will be logged. 
+
+//UPDATE FOR RESUBMISSION: It will console log "You're a student on the West Coast!"
 
 //CODE
 /*
@@ -146,7 +149,8 @@ It should read
 let colorOne= 'blue';
 let colorTwo = 'red';
 
-*/
+//UPDATE FOR RESUBMISSION: The if statement should include a value for colorTwo as well as color one. 
+//And maybe also an assignement for if mix = false? */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
@@ -184,10 +188,7 @@ if(minAge <= age) {
   console.log('enter');
 }
 
-FIX: The 'if' condition is swapped, and as written will turn this into a '21 and under only' club. 
-The correct 'if' condition would be:
-
-if(age >= minAge) 
-
+// UPDATE FOR RESUBMISSION: ... Honestly didn't understand the wording of grader's correction, 
+but rereading the question it looks like maybe the 'if' condition should actually be "if (minAge < age)"? 
 */
 
